@@ -1,1 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /* Add CSS styling here */
+
+body {
+  font-size: 10px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  background-color: black;
+  font-size: 2rem;
+  height: 100px;
+}
+
+nav a {
+  width: auto;
+  border-radius: 4px;
+  text-decoration: none;
+  background: crimson;
+  color: white;
+  border: 2px crimson solid;
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
+button {
+  border-radius: 0;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  height: 2em;
+  line-height: 2rem;
+  padding: 0 1em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgray;
+  height: 20vh;
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+/* First Section */
+
+#fold {
+  display: flex;
+  background-color: white;
+}
+
+#fold .fold-btn {
+  background-color: transparent;
+  margin-bottom: 1%;
+  box-shadow: inset 0 0 0 2px #e5474b;
+  color: #e5474b;
+}
+#fold img {
+  width: 47.5%;
+}
+
+#fold .fold-content {
+  line-height: 2rem;
+  align-self: center;
+  padding: 64px 64px 32px 64px;
+}
+
+#fold .fold-content h2 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 1%;
+}
+
+#fold .fold-content p {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+/* Second Section */
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.gallery img {
+  width: 22.5%;
+}
+
+.projects {
+  justify-content: space-evenly;
+  display: flex;
+  background-color: burlywood;
+}
+
+.projects h3 {
+  font-size: 1.8rem;
+}
+
+/* Footer */
+
+#foot .footer-button {
+  font-size: 1.6rem;
+  color: darkred;
+}
+
+#foot h2 {
+  font-size: 2.4rem;
+}
